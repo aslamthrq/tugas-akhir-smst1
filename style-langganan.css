@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container ul li {
+    text-decoration: none;
+}
+
+
+.pricing-plan {
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin: 15px;
+}
+.pricing-plan-header {
+    padding: 25px;
+    background: #009578;
+    color: white;
+}
+.pricing-plan-title,
+.pricing-plan-summary {
+    margin: 0;
+    text-align: center;
+}
+.pricing-plan-title{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.pricing-plan-summary{
+    font-size: 1em;
+    font-weight: 300;
+}
+.pricing-plan-description{
+    padding: 25px;
+}
+.pricing-plan-list{
+    padding: 0;
+    margin: 0;
+}
+.pricing-plan-feature{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+.pricing-plan-feature:not(:last-child){
+    margin-bottom: 0.5em;
+}
+.pricing-plan-feature::before{
+    content: "\2714";
+    color: black;
+    position: absolute;
+    left: 0;
+}
+.pricing-plan-actions{
+    padding: 25px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan-button{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+.pricing-plan-button:hover{
+    color: white;
+    background: black;
+}
+.pricing-plan-cost{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+.pricing-plan-text{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+footer{
+    background: #000000;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-section .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: ivory;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+.footer-section .social-links a :hover{
+    color: rgb(240, 16, 16);
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.active {
+    color: rgb(9, 255, 0);
+}
+.navbar {
+    background-color: black;
+}
+.d-flex {
+    border-radius: 30%;
+}
+
+input[type="search"] {
+    background-color: #E5E5E5;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+}

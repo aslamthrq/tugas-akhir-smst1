@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="styleMusic.css">
+    <link rel="stylesheet" href="lightslider.css">
+    <script src="jquery.js"></script>
+    <script src="lightslider.js"></script>
+
+    <title>SAPA | Rust</title>
+</head>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="foto/sapa.png" alt="Logo SAPA" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent" style="font-weight: bold;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="berlangganan.html">Berlangganan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  lainnya
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="live.html">Siaran Langsung</a></li>
+                  <li><a class="dropdown-item" href="playlist.html">Playlist</a></li>
+                </ul>
+              </li>
+            <form class="search">
+              <input type="search" placeholder="  Cari" aria-label="Search">
+            </form>
+            <li class="nav-item" style="margin-left: 20px;">
+              <a href="users.html"><i class='fas fa-user-circle' style='font-size:30px;color:rgb(255, 255, 255)'></i></a>
+            </li>
+          </div>
+      </div>
+    </nav>
+
+
+  <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="box">
+          <div class="slide-img">
+            <img src="images/Rust on the Track.jpg">
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Rust on the Track</a>
+              <span> by nama orang</span>
+            </div>
+          </div>
+    
+        </div>
+      </li>
+  </ul>
+
+
+    <div class="music-container play">
+        <div class="music-info">
+            <h4 id="title">Stegosaurus</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <audio src="music/Stegosaurus.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img src="images/Stegosaurus.png" alt="music-cover" id="cover">
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="script-rust.js"></script>
+</body>
+</html>
